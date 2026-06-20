@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 st.set_page_config(
     page_title="Alarm",
-    page_icon="🚨",
+    page_icon="🚨 Annotation 2026-03-11 213816.png",
     layout="wide"
 )
 
@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns([1,5])
 with col1:
     st.image(
-        r"C:\Users\WIN 10\Desktop\Inventory_System\Annotation 2026-03-11 213816.png",
+        "Annotation 2026-03-11 213816.png",
         width=50
     )
 
