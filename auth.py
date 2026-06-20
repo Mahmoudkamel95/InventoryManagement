@@ -36,7 +36,7 @@ def check_login():
         
 def show_logo():
     st.sidebar.image(
-        r"C:\Users\WIN 10\Desktop\Inventory_System\Annotation 2026-03-11 213816.png",
+        "Annotation 2026-03-11 213816.png",
         use_container_width=True
     )
     st.sidebar.markdown("---") 
