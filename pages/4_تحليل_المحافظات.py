@@ -11,14 +11,14 @@ from utils.data_loader import load_data
 
 st.set_page_config(
     page_title="Heatmap المخزون",
-    page_icon="🔥",
+    page_icon="🔥 Annotation 2026-03-11 213816.png",
     layout="wide"
 )
 
 col1, col2 = st.columns([1,5])
 with col1:
     st.image(
-        r"C:\Users\WIN 10\Desktop\Inventory_System\Annotation 2026-03-11 213816.png",
+        "Annotation 2026-03-11 213816.png",
         width=50
     )
 
